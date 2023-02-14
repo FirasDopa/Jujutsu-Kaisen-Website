@@ -1,3 +1,13 @@
+nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      }
+.parental{
+  display: flex;
+  gap: 300px;
+}
+
 #text{
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
@@ -24,5 +34,12 @@ h2 {
   background-color: black;
   padding: 2%;
   border-radius: 10px;
-
+}
+ul{
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+.navimg img {
+  width: 100px;
 }
